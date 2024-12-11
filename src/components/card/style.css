@@ -1,0 +1,27 @@
+.Pokemons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background-color: #95CEC4;
+    padding: 40px 60px;
+    border-radius: 16px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.Pokemons:hover{
+    transform: scale(1.06);
+}
+
+.Pokemons img {
+    width: 140px;
+}
+
+.Pokemons p:nth-child(2){
+    font-weight: bold;
+}
+
+.Pokemons p:nth-child(3) {
+    font-size: 14px;
+}
