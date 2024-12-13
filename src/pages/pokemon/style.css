@@ -1,0 +1,114 @@
+.Pokemon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 30px 70px;
+    height: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to right, #BD83BD, #97D9E1);
+}
+
+@media (max-width: 550px) {
+    .Pokemon {
+        padding: 30px 40px;
+    }
+}
+
+.Pokemon div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: #3D3D3D;
+}
+
+.Pokemon div:nth-child(1) img {
+    width: 170px;
+    background-color: rgba(205, 205, 205, 0.256);
+    border-radius: 200px;
+}
+
+.Pokemon div:nth-child(1) h1 {
+    font-size: 24px;
+}
+
+#power {
+    text-align: center;
+    background-color: #FFA6A6;
+    min-width: 140px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.Pokemon div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 8px;
+    color: #3E3E3E80 !important;
+}
+
+.Pokemon div:nth-child(2)>p {
+    font-size: 25px;
+}
+
+.Pokemon>div:nth-child(2)>div {
+    display: flex;
+    align-items: flex-start;
+    background-color: #ffff;
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.hp div,
+.attack div,
+.defense div,
+.special-attack div,
+.special-defense div,
+.speed div {
+    display: flex;
+    align-items: flex-start !important;
+    justify-content: center;
+    
+    height: 35px;
+    border-radius: 10px;
+    padding-left: 20px;
+    color: #3E3E3E80 !important;
+}
+
+.hp div p,
+.attack div p,
+.defense div p,
+.special-attack div p,
+.special-defense div p,
+.speed div p{
+    min-width: 133px;
+}
+
+.hp div {
+    background-color: #C8FFA6;
+}
+
+.attack div {
+    background-color: #FFBBA6;
+}
+
+.defense div {
+    background-color: #D1D1D1;
+}
+
+.special-attack div {
+    background-color: #A6E4FF;
+}
+
+.special-defense div {
+    background-color: #A6B9FF;
+}
+
+.speed div {
+    background-color: #FDFFA6;
+}
