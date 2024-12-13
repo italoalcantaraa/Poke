@@ -1,4 +1,5 @@
-﻿# | Pokémon API ![link](https://github.com/user-attachments/assets/174d05f2-3022-4a13-8493-d1e96bf7de93)
+﻿# | Pokémon API 🐣
+ 
 
 
 ## Sobre o projeto
